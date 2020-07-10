@@ -1,0 +1,23 @@
+LDI ZL, LOW(NUM<<1)
+LDI ZH,HIGH(NUM<<1)
+LDI XL,0x60
+LDI XH,0x00
+
+LPM R0,Z+;count
+LDI R1,0x00;LOWER BYTE OF RESULT
+LDI R2,0x00;HIGHER BYTE OF RESULT
+
+load:
+LPM R2,Z+; INCOMING NUMBER
+ADD R1,R2
+BRCC nocarry
+INC R2
+nocarry:
+DEC R0
+BRNE load
+
+
+ST X+,R1
+ST X,R2
+
+NUM: .db 0x03,0X5F,0X32,0X01; format: count,number1,[number2,..]
