@@ -1,0 +1,9 @@
+;#include "m8def.inc"
+LDI R16,0xFF
+OUT DDRD,R16
+
+LDI R16,0x00
+OUT DDRB,R16
+
+IN R16,PINB
+OUT PORTD,R16
