@@ -9,6 +9,7 @@ This repository contains our prototype of the Microcontroller of a Microwave Ove
 <li> Two buttons are provided to select one of the two power levels: 600W and 800W. After pressing start button, timer starts decreasing with the LCD of selected mode glowing. This button is also used to resume the timer in-case the user has paused the timer to open the oven and check the status of food. </li>
 <li> When the timer reaches 0, power gets off and a green LED glows for 12 seconds to indicate that the job is done, along with a buzzer long beep. A toggle switch is used to model an accidental door opening. A red LED glows and the buzzer beeps when door is opened accidentally. </li>
 <li> Low frequency beep from the buzzer indicates that door is open while in configuration mode. A high frequency beep indicates “Danger” that door is opened while cooking.</li>
+</ul>
 
 The Main Flowchart of the working of the microwave oven is given below: 
 ![Main Flowchart](https://github.com/Siddharth1101/Battle-Of-Neighbourhoods/blob/master/Clusters_zoomed.png "Title")
