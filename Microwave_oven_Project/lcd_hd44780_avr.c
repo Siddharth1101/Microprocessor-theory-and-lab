@@ -1,64 +1,3 @@
-/******************************************************************************
-
-                          eXtreme Electronics xAPI(TM)
-						  ----------------------------
-xAPI is a Powerful but easy to use C library to program the xBoard(TM)
-series of AVR development board. The library has support for common tasks
-like:-
-
-*LCD interfacing
-*Multiplexed 7 segment displays.
-*Remote Control
-*Serial Communication
-*DC Motor Controls with Speed Control
-*Analog Measurement for Sensor Interface.
-*Temperature Measurement.
-*I2C Communication.
-*EEPROM Interface
-*Real Time Clock (RTC Interface)
-
-The APIs are highly documented and easy to use even by a beginner.
-
-For More Info Log On to 
-www.eXtremeElectronics.co.in
-
-Copyright 2008-2013 eXtreme Electronics India
-
-LOG:
-20 Oct 2013:
-* Fixed LS_NONE [SIMULATION TEST OK, HARDWARE TEST OK]
-* Fixed negative int printing. [SIMULATION TEST OK]
-* 16x2 LCD Positioning test ok
-* 20x2 LCD Positioning test ok
-* 20x4 LCD Positioning test ok
-* 16x4 LCD Positioning test ok [SIMULATION ONLY]
-* Every thing's done ! Ready for distribution.
-
-TODO:
-* Long int (32 bit) printing support.
-* Floating point printing support.
-
-
-                                    LCD Core
-						           ----------
-This module is used for driving Standard Alpha Numeric LCD Modules.
-For More information please see supplied tutorials and videos.
-
-                                     NOTICE
-									--------
-NO PART OF THIS WORK CAN BE COPIED, DISTRIBUTED OR PUBLISHED WITHOUT A
-WRITTEN PERMISSION FROM EXTREME ELECTRONICS INDIA. THE LIBRARY, NOR ANY PART
-OF IT CAN BE USED IN COMMERCIAL APPLICATIONS. IT IS INTENDED TO BE USED FOR
-HOBBY, LEARNING AND EDUCATIONAL PURPOSE ONLY. IF YOU WANT TO USE THEM IN 
-COMMERCIAL APPLICATION PLEASE WRITE TO THE AUTHOR.
-
-
-WRITTEN BY:
-AVINASH GUPTA
-me@avinashgupta.com
-
-*******************************************************************************/
-
 #include <avr/io.h>
 #include <util/delay.h>
 #include <avr/pgmspace.h>
@@ -323,7 +262,7 @@ void LCDWriteString(const char *msg)
 
 	So it will be printed like.
 		
-		Temp is 30°C
+		Temp is 30Â°C
 		
 	In the same way you can insert any syblom numbered 0-7 	
 
@@ -379,7 +318,7 @@ void LCDWriteFString(const char *msg)
 
 	So it will be printed like.
 		
-		Temp is 30°C
+		Temp is 30Â°C
 		
 	In the same way you can insert any syblom numbered 0-7 	
 
