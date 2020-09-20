@@ -1,23 +1,3 @@
-/********************************************************************
-
-Keypad library for five way navigation and two soft key.
-
-Features:
-	Automatic 80 FPS scanning using TIMER0
-	3 point major polling for complete noice free operation
-	Fully debounced.
-	Automatic buffering of commands (no missed keypress!)
-	Automatic repeat when user presses and hold a key.  
-
-Written By:
-	Avinash Gupta
-
-
-Copyright 2008-2012
-eXtreme Electronics, India
-www.eXtremeElectronics.co.in
-********************************************************************/
-
 #include <avr/io.h>
 #include <avr/interrupt.h>
 
