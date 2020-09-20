@@ -1,34 +1,3 @@
-/******************************************************************************
-
-A microwave cooking oven control timer using AVR ATmega8 MCU.
-
-For more details please see
-http://extremeelectronics.co.in/avr-projects/microwave-controller-using-atmega8-avr-project/
-
-MCU: ATmega8A
-Speed: 1MHz Internal Oscillator
-Fuse Low: E1
-Fuse High: D9
-
-Written By
- Avinash Gupta
-Contact
- gmail@avinashgupta.com
-
-For more interesting microcontroller tutorials and projects. Please visit
-http://www.extremeelectronics.co.in
-
-NOTICE:
-PROGRAM SAMPLE PROVIDED FOR SELF LEARNING PURPOSE ONLY!
-NO PART OF THIS WORK SHOULD BE USED IN ANY COMMERCIAL PROJECTS OR IN ANY 
-TEACHING INSTITUTES FOR TEACHING THEIR STUDENTS
-NO PART OF THIS WORK SHOULD BE PUBLISHED IN ANY FORM LIKE PRINTED OR ELECTRONIC
-MEDIA
-
-COPYRIGHT (C) 2008-2015 EXTREME ELECTRONICS, INDIA
-******************************************************************************/
-
-
 #include <avr/io.h>
 #include <avr/pgmspace.h>
 #include <util/delay.h>
