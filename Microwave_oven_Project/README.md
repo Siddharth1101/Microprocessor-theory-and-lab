@@ -11,10 +11,10 @@ This repository contains our prototype of the Microcontroller of a Microwave Ove
 <li> Low frequency beep from the buzzer indicates that door is open while in configuration mode. A high frequency beep indicates “Danger” that door is opened while cooking.</li>
 </ul>
 
-The Main Flowchart of the working of the microwave oven is given below: 
-![Main Flowchart](https://github.com/Siddharth1101/Battle-Of-Neighbourhoods/blob/master/Clusters_zoomed.png "Title")
+<b>The Main Flowchart of the working of the microwave oven is given below:
+![Main Flowchart](https://github.com/Siddharth1101/Microprocessor-theory-and-lab/blob/master/Microwave_oven_Project/Main%20Flowchart.jpg "Title")
 
 The Bread-board implementation using the AVR Atmega32 Chip is given below:
 ![Our bread-board picture](https://github.com/Siddharth1101/Microprocessor-theory-and-lab/blob/master/Microwave_oven_Project/Oven_Board.jpg "Title")
 
-Alternatively, our video description and the final functioning of the project is given in this YouTube link: https://www.youtube.com/watch?v=MudgaewhIiQ&feature=youtu.be
+Alternatively, our video description and the final functioning of the project is given in this YouTube link:</b> https://www.youtube.com/watch?v=MudgaewhIiQ&feature=youtu.be
